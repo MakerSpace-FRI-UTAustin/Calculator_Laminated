@@ -63,6 +63,36 @@ None
     
     		displayResults();
 	}
+  function subby()
+	{
+		// Assigns values to existing variables based on user input. Converts string input to numerical input.
+    		firstNumber = parseFloat(document.getElementById("firstnumber").value);
+    		secondNumber = parseFloat(document.getElementById("secondnumber").value);
+
+    		outputNumber = firstNumber - secondNumber;
+    
+    		displayResults();
+	}
+  function divi()
+	{
+		// Assigns values to existing variables based on user input. Converts string input to numerical input.
+    		firstNumber = parseFloat(document.getElementById("firstnumber").value);
+    		secondNumber = parseFloat(document.getElementById("secondnumber").value);
+
+    		outputNumber = firstNumber / secondNumber;
+    
+    		displayResults();
+	}
+  function multi()
+	{
+		// Assigns values to existing variables based on user input. Converts string input to numerical input.
+    		firstNumber = parseFloat(document.getElementById("firstnumber").value);
+    		secondNumber = parseFloat(document.getElementById("secondnumber").value);
+
+    		outputNumber = firstNumber * secondNumber;
+    
+    		displayResults();
+	}
   
   
   
@@ -154,7 +184,9 @@ None
 					<center>
 					<!--Button. When clicked, runs the addition() function.-->
                  			<a onclick="addition();" class="w3-btn w3-deep-purple">Add</a><br>
-                   
+                   			<a onclick="subby();" class="w3-btn w3-deep-purple">subtract</a><br>
+					<a onclick="divi();" class="w3-btn w3-deep-purple">divid</a><br>
+					<a onclick="multi();" class="w3-btn w3-deep-purple">multiply</a><br>
                    
 
                    
